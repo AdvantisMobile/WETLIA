@@ -1,0 +1,171 @@
+.background {
+    --background: url('../../assets/img/Fondo1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+  }
+
+@font-face {
+    font-family: 'HelveticaNeueLTStd-Roman';
+    src: url('../../assets/fonts/HelveticaNeueLTStd-Roman.otf')
+}
+
+  #fondo{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+  }
+
+  #fondo{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+  }
+
+  #grupo1{
+    position: fixed;
+    top: 17%;
+  }
+
+  #grupo2{
+    position: fixed;
+    top: 50%;
+    width: 100%;
+  }
+
+  ion-card-header {
+    --background: url('../../assets/img/Barra.png') center ;
+    border:none !important;
+    box-shadow: none !important;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center center;
+    position: relative;
+    background-color: transparent !important;
+    width:100%;
+    height:120px;
+  }
+  .logoW{
+    margin-top: -5%;
+    margin-left: -12%;
+    width: 100%;
+    margin-bottom: -7%;
+  }
+  .logP{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10%;
+    width: 100%;
+  }
+  .BBtn{
+    width: 10%;
+  }
+  h1{
+    color: #fff;
+  }
+  ion-input {
+    border-radius: 30px !important;
+    font-size: 2em;
+    border: 1px solid #989aa2;
+    box-shadow: none !important;
+    background-color: white;
+    height: 65%;
+  }
+  ion-item {
+    background-color:transparent !important;
+  }
+  .stylecard{
+    background-image: url('../../assets/img/Barrazul.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    box-shadow: none !important;
+    background-attachment: fixed;
+  }
+  .SS{
+    border: none;
+    box-shadow: none !important;
+  }
+  ion-card{
+    border-radius: 15px !important;
+    margin: -2% 0 0 0;
+    padding: 0 0 0 0;
+    /*background-color: transparent !important;*/
+    border: none !important;
+    box-shadow: none !important;
+  }
+  ion-card-content{
+    --background-color: white !important;
+  }
+
+  .CC {
+    margin-top: -10%;
+    margin-bottom: 0%;
+  }
+  table {
+    background-color: #00324C;
+    width: 100%;
+  }
+  th, td{
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+    font-family: 'HelveticaNeueLTStd-Roman';
+  }
+
+  #Titulo{
+    font-family: 'HelveticaNeueLTStd-Roman';
+    padding-top: 10px;
+  }
+  ion-card-footer{
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  #cliente{
+    padding-left: 10px;
+    color: #777;
+    background-color: #fff;
+    border-radius: 15px;
+    height: 35px;
+    width: 100%;
+    opacity: 1;
+  }
+
+  #enviar{
+    position: fixed;
+    bottom: 2%;
+    width: 25%;
+    right: 5%
+  }
+
+  #guardar{
+    position: fixed;
+    bottom: 2%;
+    width: 25%;
+    left: 38%
+  }
+
+  #atras{
+    position: fixed;
+    bottom: 2%;
+    width: 25%;
+    left: 5%
+  }
+
+
+#tr1{
+  height: 90px;
+}
+
+#tr2{
+  height: 90px;
+}

@@ -1,0 +1,52 @@
+<ion-content  >
+  <img src="../../assets/img/Fondo4.jpg"  id="fondo">
+
+  <ion-grid id="grupo1">
+    <ion-row>
+      <ion-col size="4">
+        <div>
+          <img class="logP" src="assets/img/Producto2.png" alt="logo">
+        </div>
+      </ion-col>
+      <ion-col size="8">
+        <div>
+          <img class="logoW" src="assets/img/LogoWetlia.png" alt="logo">
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+<!--Inicia Tabla-->
+<ion-card id="grupo2">
+    <ion-card-title style="font-size: 2.5em;" color="medium" class="ion-text-center" id="Titulo">Resumen</ion-card-title>
+  <ion-card-content>
+      <table id="tablaR" class="my-table mat-elevation-z8">
+        <thead>
+            <tr id="tr1">
+              <th>Cliente</th>
+              <th>Nuevo precio promedio x vial</th>
+              <th>Descuento vs Full Price</th>
+              <th>Rentabilidad total</th>
+              <th>Distribuidor</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="tr2">
+              <td id="td1"></td>
+              <td id="td2"></td>
+              <td id="td3"></td>
+              <td id="td4"></td>
+              <td id="td5"></td>
+            </tr>
+          </tbody>
+    </table>
+  </ion-card-content>
+</ion-card>
+ <!--Termina Tabla-->
+</ion-content>
+
+
+  <input type="image" src="assets/img/Atras.png" alt="atras" width="100%" (click)="atras()" id="atras">
+
+  <input type="image" src="assets/img/Guardar.png" alt="guardar" width="100%" (click)="guardar()" id="guardar">
+
+  <input type="image" src="assets/img/Enviar.png" alt="enviar" width="100%" (click)="enviar()" id="enviar">

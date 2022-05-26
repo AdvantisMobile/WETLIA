@@ -1,0 +1,81 @@
+<ion-content>
+    <!-- <img src="../../assets/img/Fondo1.jpg"  id="fondo2"> -->
+    <div id="home">
+    <img src="../../assets/img/Fondo5.jpg"  id="fondo">
+    <!-- Distribuidor -->
+    <ion-select placeholder="" id="Distribuidor" class="Ocultar">
+    </ion-select>
+    <!-- Cliente -->
+    <ion-select placeholder="" id="Cliente" class="Ocultar">
+    </ion-select>
+
+
+    <!--  -->
+    <input type="number" name="" id="vam" class="Ocultar" min="0" pattern="[0-9]" onkeypress="return !(event.charCode == 46)" step="1" title="Must be an integer number" value="0">
+    <!-- Precio unitario -->
+    <input type="text" name="" value="23558" disabled id="pUnitario" class="Ocultar">
+    <!--  -->
+    <input type="number" name="" id="vem" class="Ocultar"  min="0" pattern="[0-9]" onkeypress="return !(event.charCode == 46)" step="1" title="Must be an integer number" value="0">
+
+    <ion-select placeholder="" id="cca">
+      <ion-select-option value="Full price">Full price</ion-select-option>
+      <ion-select-option value="Tripack">Tripack</ion-select-option>
+      <ion-select-option value="5+8">5+8</ion-select-option>
+      <ion-select-option value="10+17">10+17</ion-select-option>
+      <ion-select-option value="X1+X2">X1+X2</ion-select-option>
+      <ion-select-option value="% vs FP">% vs FP</ion-select-option>
+    </ion-select>
+
+    <!--  -->
+    <input type="text" name="" value="" disabled id="dsfpa" class="Ocultar">
+
+    <input type="text" name="Test" value="" id="ccp" disabled style="text-align:center" class="Ocultar">
+
+    <!--  -->
+    <input type="text" name="" value="" disabled id="dsfpe" class="Ocultar">
+
+    <!--  -->
+    <input type="text" name="" value="0.00" disabled id="ppva" class="Ocultar">
+
+    <!-- Diferencial en valores-->
+    <input type="number" name="" value="" disabled id="dev" class="Ocultar">
+
+    <!--  -->
+    <input type="text" name="" value="0.00" disabled id="ppve" class="Ocultar">
+
+
+    <!-- Atras -->
+    <input type="button"(click)="atras()" id="atras" class="boton">
+
+    <!-- Guardar -->
+    <input type="button"(click)="guardar()" id="guardar" class="boton">
+
+    <!-- Limpiar -->
+    <input type="button"(click)="limpiar()" id="limpiar" class="boton">
+
+    <!-- Siguiente -->
+    <input type="button"(click)="siguiente()" id="siguiente" class="boton">
+
+
+    <div class="especial" id="e1">
+      <img src="../../assets/img/CC1.png" width="100%" id="cc1">
+      <img src="../../assets/img/CC2.png" width="100%" id="cc2">
+      <!--  -->
+      <input type="number" name="" value="0" id="x1a" class="Ocultar">
+      <input type="number" name="" value="0" id="x2a" class="Ocultar">
+      <!-- <input type="text" name="" value="0" id="x2b" class="Ocultar"> -->
+      <!--  -->
+
+
+    </div>
+
+
+    <div id="nCLiente">
+      <div id="fNuevo">
+        <h1 id="Titulo">Nuevo cliente</h1><br>
+        <input type="text" name="nClienteF" value="" id="nClienteF"><br>
+        <button type="button" name="button" id="nClienteB" (click)="crearC()">Crear</button>
+      </div>
+    </div>
+  </div>
+</ion-content>

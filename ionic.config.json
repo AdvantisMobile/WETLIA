@@ -1,0 +1,8 @@
+{
+  "name": "Wetlia",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}
